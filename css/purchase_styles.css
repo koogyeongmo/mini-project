@@ -1,0 +1,77 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1em;
+    line-height: 1.2em;
+}
+
+.product_footer {
+    position: fixed;
+    height: 75px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 300;
+    background-color: whitesmoke;
+    border-top: 1px solid lightgray;
+}
+
+.product_details {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.left {
+    padding: 24px;
+}
+
+.right {
+    padding: 8px;
+    justify-content: flex-end;
+}
+
+.product_details > .left > #price {
+    font-size: 24px;
+}
+
+.product_details > .left > #pricelabel {
+    font-size: 18px;
+    margin-left: 75px;
+    padding-right: 30px;
+}
+
+#purchase {
+    background-color: #5055b1;
+    border: none;
+    color: white;
+    padding: 15px 85px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 8px;
+    margin-right: 75px;
+
+}
+
+#shopping_list {
+    background-color: white;
+    border: 1px solid #5055b1;
+    color: #5055b1;
+    padding: 15px 85px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 8px;
+    margin-right: 75px;
+
+}
+
+
+.book_image {
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
