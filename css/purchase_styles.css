@@ -1,7 +1,64 @@
+
+* {
+    box-sizing: border-box;
+  }
+
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.1em;
     line-height: 1.2em;
+}
+
+#book_title {
+    text-align: center;
+    color: black;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.aside_alert {
+    color: #595959;
+    font-size: 13px;
+    line-height: 19px;
+    background-color: #f7f7f7;
+    padding: 5px;
+    border-radius: 12px;
+
+}
+
+.aside_delivery {
+    color: black;
+    font-size: 14px;
+    line-height: 12px;
+    padding: 5px;
+}
+
+
+.aside {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#bottom_table {
+    display: flex;
+    justify-content: center;
+    height: 600px;
+}
+
+.event {
+    display: flex;
+    width: 850px;
+    height: 400px;
+    background-color: aliceblue;
+    margin: 20px;
+    
+}
+
+.bestsellers {
+    display: flex;
+    background-color: aliceblue;
+
 }
 
 .product_footer {
@@ -13,6 +70,7 @@ body{
     z-index: 300;
     background-color: whitesmoke;
     border-top: 1px solid lightgray;
+    min-width: 1000px;
 }
 
 .product_details {
@@ -40,6 +98,40 @@ body{
     padding-right: 30px;
 }
 
+#nav_window {
+    margin-top: 100px;
+
+    width: 300px;
+}
+
+#aside_window_right {
+    margin-top: 100px;
+    width: 300px;
+}
+
+#main_window {
+    width: 500px;
+}
+
+
+#main {
+    display: flex;
+    justify-content: center;
+    height: 600px;
+  }
+
+  #main > nav {
+    background: white;
+  }
+
+
+  #main > aside {
+    background: white;
+  }
+  #main > nav {
+    order: -1;
+  }
+
 #purchase {
     background-color: #5055b1;
     border: none;
@@ -52,6 +144,12 @@ body{
     border-radius: 8px;
     margin-right: 75px;
 
+}
+
+#aside_price {
+    color: #000;
+    font-size: 24px;
+    line-height: 36px;
 }
 
 #shopping_list {
@@ -70,8 +168,21 @@ body{
 
 
 .book_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: auto;
+    padding: 25px;
+    padding-bottom: 50px;
+    object-fit: contain;
+    }
+
+.book_info_image {
 display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+margin-left: auto;
+margin-right: auto;
+width: 500px;
+padding: 25px;
+
 }
